@@ -1,0 +1,38 @@
+FROM gcc:latest
+
+# Install necessary dependencies
+RUN apt-get update && \
+    apt-get install -y libsfml-dev
+# NOTE: THIS DOCKERFILE WILL BE SUBJECT TO IMPENDING CHANGE, DEPENDENT ON WHETHER THE IMPLEMENTATION OF SDL IS SUCCESSFUL.
+
+  
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy your C++ source files to the container
+COPY . /app
+
+# Compile your C++ code
+RUN g++ -o spaceward_ho spaceward_ho_base_v0_1.cpp -lsfml-graphics -lsfml-window -lsfml-system
+
+# Run your compiled executable
+CMD ["./spaceward_ho"]
+
+# Use an official C++ runtime as the base image
+FROM gcc:latest
+
+# Install SFML dependencies
+RUN apt-get update && apt-get install -y \
+    libsfml-dev
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy your C++ project files to the container
+COPY . /app
+
+# Compile your C++ project
+RUN g++ -o main spaceward_ho_base_v0_1.cpp -lsfml-graphics -lsfml-window -lsfml-system
+
+# Run your C++ project when the container starts
+CMD ["./main"]
