@@ -13,7 +13,7 @@ This should work on all OS that can run C++.
 
 
 File structure plan;
-
+```
 spaceward_ho/
 ├── CMakeLists.txt
 ├── src/
@@ -157,3 +157,4 @@ spaceward_ho/
 ├── networking_tests.cpp
 ├── utility_tests.cpp
 └── scripting_tests.cpp
+```
