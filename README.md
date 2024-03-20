@@ -1,6 +1,10 @@
 # Open_Spaceward_Ho-
 Open Implement of the Classic Spaceward Ho! Game - C++
 
+ORIGINAL GAME:
+(https://www.deltatao.com/ho/pc.html)
+FYI I'm a huge fan of these guys for creating this game. It's abandonware though, so I'm just going to make an open sourced better game.
+
 NOTE: While this does not promise the exact mechanics of the original game, I've taken care to implement other entertaining features within the game, and intend to build on the original aesthetic.
 
 The AI in this game will be machine learning trained on a CPU and will be relatively lightweight with difficulty in relation to input variables. If you wish to contact me about helping with completion of this project, I will provide a contact link in 1-3 weeks time of this commit.
