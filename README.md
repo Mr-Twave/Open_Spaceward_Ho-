@@ -1,4 +1,4 @@
-# Open_Spaceward_Ho-
+# Open_Spaceward_Ho
 Open Implement of the Classic Spaceward Ho! Game - C++
 
 ORIGINAL GAME:
@@ -11,7 +11,7 @@ The AI in this game will be machine learning trained on a CPU and will be relati
 
 The code is currently in development and serves at present only demonstration purposes. The code is relatively clean at the moment, and I intend the code to be clean by completion.
 
-There will be updates- currently I'm only making a code dump which will clearly demonstrate the structure of the game, but not its final form. I've got about ~3500 lines of C++ and estimate needing another 4000 lines to complete this project, and cleaning up the existing code. Most of the extra lines will be handling exceptions likely.
+There will be updates- currently I'm only making a code dump which will clearly demonstrate the structure of the game, but not its final form. I've got about ~15000 lines of C++ and estimate needing another 2000 lines to complete this project, and cleaning up the existing code. Most of the extra lines will be handling exceptions likely.
 
 This should work on all OS that can run C++.
 
