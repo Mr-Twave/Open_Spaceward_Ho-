@@ -15,6 +15,8 @@ There will be updates- currently I'm only making a code dump which will clearly 
 
 This should work on all OS that can run C++.
 
+The holdup currently is that most of the elementary game code is written, but it is somewhat disjunct.
+
 
 File structure plan;
 ```
