@@ -5,13 +5,15 @@ ORIGINAL GAME:
 (https://www.deltatao.com/ho/pc.html)
 FYI I'm a huge fan of these guys for creating this game. It's abandonware though, so I'm just going to make an open sourced better game.
 
-NOTE: While this does not promise the exact mechanics of the original game, I've taken care to implement other entertaining features within the game, and intend to build on the original aesthetic.
+NOTE: While Open Spaceward Ho does not promise the exact mechanics of the original game, I've taken care to implement other entertaining features within the game. I intend to build on the original aesthetic.
 
-The AI in this game will be machine learning trained on a CPU and will be relatively lightweight with difficulty in relation to input variables. If you wish to contact me about helping with completion of this project, I will provide a contact link in 1-3 weeks time of this commit.
+The AI in this game will be machine learning trained on a CPU and will be relatively lightweight with difficulty in relation to input variables. 
 
-I also do not mind you posting an issue if you wish to contact me.
+If you wish to contact me about helping with completion of this project, I do not mind you posting an issue if you wish to contact me. This project WILL be completed, but its completion a question of extra time resource. The author is currently very busy with important formatting projects, and this one has been set on the backburner. If you have read my code, you'll understand that I'm beyond proficient at creating simplistic code and am generally avoidant of individually complex functions. Formatting my code is something I'm improving on. You will see that in a future version of Open Spaceward Ho. I need to go over the mechanics of this game again before it can be produced in full; not all mechanics are outlined properly.
 
-The code is currently in development and serves at present only demonstration purposes. The code is relatively clean at the moment, and I intend the code to be clean by completion.
+Once all of the mechanics are outlined properly, I will finish making this game.
+
+The code is currently in development and serves at present only demonstration purposes. The code is relatively clean at the moment. I intend the code to be more clean by time of completion.
 
 There will be updates- currently I'm only making a code dump which will clearly demonstrate the structure of the game, but not its final form. I've got about ~15000 lines of C++ and estimate needing another 2000 lines to complete this project, and cleaning up the existing code. Most of the extra lines will be handling exceptions likely.
 
